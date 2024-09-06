@@ -4,7 +4,6 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { addToLiked } from "../redux/slice/likeSlice";
-import Corusel from "../carusel/page";
 
 const Home = () => {
   const [data, setData] = useState([]);
